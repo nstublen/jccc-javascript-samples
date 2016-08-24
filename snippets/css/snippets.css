@@ -1,0 +1,24 @@
+#snippet-box {
+    align-items: center;
+    border: solid 1px black;
+    display: flex;
+    width: 300px;
+}
+
+.snippet-nav {
+    flex-grow: 0;
+    padding: 5px;
+}
+
+#snippet-detail {
+    flex-grow: 1;
+    padding: 0 5px;
+}
+
+#snippet-detail h1 {
+    font-size: 16pt;
+}
+
+#snippet-detail p {
+    font-size: 12pt;
+}
