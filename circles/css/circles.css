@@ -1,0 +1,19 @@
+#container {
+    border: solid 1px blue;
+    margin: auto;
+    padding: 10pt;
+    width: 200px;
+}
+
+form {
+    padding-bottom: 10pt;
+}
+
+input#radius {
+    float: right;
+    text-align: right;
+}
+
+#calculations span {
+    float: right;
+}
