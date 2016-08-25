@@ -13,11 +13,27 @@
 function initializeCircleCalculations() {
 
     var circle = {
-        radius: undefined,
-        area: undefined,
-        circumference: undefined
-    }
+        radius: 0,
 
+        area: function () {
+            return Math.PI * this.radius * this.radius;
+        },
+
+        circumference: function () {
+            return 2 * Math.PI * this.radius;
+        }
+    };
+
+    var $radius = document.getElementById("radius");
+    $radius.addEventListener("input", function () {
+        circle.radius = parseInt($radius.value);
+
+        var $area = document.getElementById("area");
+        $area.innerText = circle.area().toFixed(1);
+
+        var $circumference = document.getElementById("circumference");
+        $circumference.innerText = circle.circumference().toFixed(2);
+    });
 }
 
 // Wait for the page to load, then call initializeCircleCalculations()
