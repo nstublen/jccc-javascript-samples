@@ -12,6 +12,12 @@ solutions for each sample.
 *Purpose:* Practice creating objects with methods that require use of
   'this'.
 
+## Dice Roller
+
+*Purpose:* Use the Math object to generate random numbers. Practice
+  DOM manipulation by selecting the number of dice to roll and
+  updating the page after rolling the dice.
+  
 ## Snippets
 
 *Purpose:* Practice use of functions and objects. Functions should be
