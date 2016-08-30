@@ -1,0 +1,30 @@
+#keypad {
+    margin: auto;
+    width: 200px;
+}
+
+#keypad-entry {
+    border: solid dodgerblue 1px;
+    border-radius: 10px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px;
+    text-align: center;
+    width: 170px;
+}
+
+.keypad-key {
+    background-color: dodgerblue;
+    border: solid dodgerblue 1px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px 2px;
+    text-align: center;
+    width: 50px;
+}
+
+.keypad-row {
+    display: block;
+}
