@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+#frame {
+    height: 540px;
+    margin: auto;
+    overflow: hidden;
+    width: 860px;
+}
+
+#tray {
+    height: 540px;
+    left: 0;
+    position: relative;
+    width: 1920px;
+}
+
+#tray img {
+    border: 0;
+    height: 540px;
+    margin: 0;
+    padding: 0;
+    width: 860px;
+}

@@ -24,6 +24,10 @@ solutions for each sample.
   handler to multiple elements. The event target can be used to
   determine the source of the event.
 
+## Slideshow
+
+*Purpose:* Practice use of a timer to update page content.
+
 ## Snippets
 
 *Purpose:* Practice use of functions and objects. Functions should be
