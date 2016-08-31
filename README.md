@@ -17,7 +17,13 @@ solutions for each sample.
 *Purpose:* Use the Math object to generate random numbers. Practice
   DOM manipulation by selecting the number of dice to roll and
   updating the page after rolling the dice.
-  
+
+## Keypad
+
+*Purpose*: Practice using HTMLCollections and attaching a single event
+  handler to multiple elements. The event target can be used to
+  determine the source of the event.
+
 ## Snippets
 
 *Purpose:* Practice use of functions and objects. Functions should be
